@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kerajaan Auto</title>
+    <meta name="theme-color" content="#0a0a1a">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <button class="menu-btn" id="menuBtn" aria-label="Buka menu">☰</button>
+    <div class="overlay" id="overlay"></div>
+    <aside class="sidebar" id="sidebar" aria-label="Menu utama">
+        <h3>MENU</h3>
+        <a href="/">1. HOME</a>
+        <a href="/?menu=pinjam">2. PINJAM</a>
+        <a href="/?menu=donatur">3. DONATUR</a>
+        <a href="/?menu=topup">4. TOPUP</a>
+        <a href="/?menu=shop">5. SHOP</a>
+        <a href="/?menu=history">6. HISTORY</a>
+        <a href="/?menu=tambah">8. TAMBAH PEMAIN</a>
+        <a href="/?menu=edit">9. EDIT/HAPUS</a>
+        <button class="danger" id="saveBtn">7. SIMPAN</button>
+        <div class="sync-status" id="syncStatus">Offline-first siap</div>
+    </aside>
+
+    <main id="app" class="box"></main>
+
+    <script src="/firebase-config.js"></script>
+    <script src="/app.js"></script>
+</body>
+</html>
