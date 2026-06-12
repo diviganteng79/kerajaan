@@ -1,0 +1,11 @@
+{
+  "name": "Kerajaan Auto",
+  "short_name": "Kerajaan",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0a0a1a",
+  "theme_color": "#0a0a1a",
+  "description": "Game Kerajaan Auto berbasis web/PWA yang bisa dimainkan offline dan sinkron ke Firebase.",
+  "icons": []
+}
